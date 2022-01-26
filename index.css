@@ -1,0 +1,98 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+body{
+    height : 100%;
+    background-color: #202040;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+.title{
+    color :#ff6363;
+    font-weight: 500;
+    font-size: 80px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+.items{
+    margin:0.40rem;
+    padding : 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    width: 320px;
+    border-radius: 10rem;
+    font-size: 1.15rem;
+    transition: 0.5s;
+}
+.add{
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0rem;
+    transition: 0.5s;
+    background-color: coral;
+}
+.add:hover{
+    background-color: orange;
+}
+
+
+.btn{
+    background-color: orangered;
+    width: 150px;
+    padding: 20px;
+    margin-left: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: seashell;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: tomato;
+    letter-spacing: 1px;
+}
+.Unknown Area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+
+}
+.add_item{
+    background: cornsilk;
+    outline: none;
+    border: 3px solid orange;
+    border-radius: 10 px;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+}
+.remove{
+    border: none;
+    outline: none;
+    background: none;
+    color: brown;
+    margin-left: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
